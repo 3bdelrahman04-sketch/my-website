@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Eng. Abdelrahman Ahmed</title>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet" />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="StyleSheet.css" />
+</head>
+<body>
+
+    <!-- Canvas خلفية الماتريكس -->
+    <canvas id="matrix-canvas"></canvas>
+
+    <!-- Header Navigation -->
+    <header>
+        <div class="nav-container">
+            <a href="index.html" class="logo">ENG. ABDELRAHMAN</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="project.html" class="active">Projects</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Section -->
+    <main class="main-container" style="padding-top: 140px;">
+        <!-- Page Header -->
+        <div class="project-page-header">
+            <div class="badge"><i class="fa-solid fa-folder-open"></i> Portfolio Showcase</div>
+            <h1 class="gradient-text">My Projects & Video Demos</h1>
+            <p>
+                A collection of front-end web applications, interactive interfaces, and video showcases built using modern technologies.
+            </p>
+        </div>
+
+        <!-- Category Filters -->
+        <div class="project-filters">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="frontend">Front-End</button>
+            <button class="filter-btn" data-filter="python">Python & AI</button>
+        </div>
+
+        <!-- Projects / Videos Grid -->
+        <div class="projects-grid">
+
+            <!-- Project Video 1 -->
+            <div class="project-card" data-category="frontend">
+                <div>
+                    <div class="video-wrapper">
+                        <video class="scroll-video" autoplay muted playsinline loop controls>
+                            <source src="https://res.cloudinary.com/nlibbhlf/video/upload/v1789001645/Nike_Store_-_Personal_-_Microsoft_Edge_2026-09-05_04-58-23.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <h3>Interactive Portfolio Website</h3>
+                    <p>استعراض فيديو للموقع التفاعلي مع خلفية الجزيئات الحركية وتصميم واجهات المستخدم العصرية.</p>
+                </div>
+                <div>
+                    <div class="tags">
+                        <span>JavaScript</span>
+                        <span>HTML/CSS</span>
+                        <span>Canvas API</span>
+                    </div>
+                    <div class="card-links">
+                        <a href="https://res.cloudinary.com/nlibbhlf/video/upload/v1789001645/Nike_Store_-_Personal_-_Microsoft_Edge_2026-09-05_04-58-23.mp4" target="_blank" class="project-link"><i class="fa-solid fa-play"></i> Watch fullscreen</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Video 2 -->
+            <div class="project-card" data-category="frontend">
+                <div>
+                    <div class="video-wrapper">
+                        <video class="scroll-video" autoplay muted playsinline loop controls>
+                            <source src="https://res.cloudinary.com/nlibbhlf/video/upload/v1789001704/Fake_Site_-_Animated_Edition_-_Personal_-_Microsoft_Edge_2026-09-04_04-46-23.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <h3>E-Commerce Platform Demo</h3>
+                    <p>فيديو توضيحي لعرض أداء ومتجر إلكتروني متكامل مع سلة المشتريات ولوحة التحكم.</p>
+                </div>
+                <div>
+                    <div class="tags">
+                        <span>JavaScript</span>
+                        <span>ASP.NET Core</span>
+                        <span>Frontend</span>
+                    </div>
+                    <div class="card-links">
+                        <a href="https://res.cloudinary.com/nlibbhlf/video/upload/v1789001704/Fake_Site_-_Animated_Edition_-_Personal_-_Microsoft_Edge_2026-09-04_04-46-23.mp4" target="_blank" class="project-link"><i class="fa-solid fa-play"></i> Watch fullscreen</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project Video 3 -->
+            <div class="project-card" data-category="python">
+                <div>
+                    <div class="video-wrapper">
+                        <video class="scroll-video" autoplay muted playsinline loop controls>
+                            <source src="https://res.cloudinary.com/nlibbhlf/video/upload/v1789001688/Dr._Rawan_Ahmed___Premium_Diet_Plans_-_Personal_-_Microsoft_Edge_2026-09-04_05-33-34.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                    <h3>Python & AI Algorithms Showcase</h3>
+                    <p>شرح فيديو لكيفية التعامل مع هياكل البيانات وقواعد الذكاء الاصطناعي باستخدام لغة Python.</p>
+                </div>
+                <div>
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>AI Fundamentals</span>
+                        <span>Data Structures</span>
+                    </div>
+                    <div class="card-links">
+                        <a href="https://res.cloudinary.com/nlibbhlf/video/upload/v1789001688/Dr._Rawan_Ahmed___Premium_Diet_Plans_-_Personal_-_Microsoft_Edge_2026-09-04_05-33-34.mp4" target="_blank" class="project-link"><i class="fa-solid fa-play"></i> Watch fullscreen</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        © <span id="year"></span> Eng. Abdelrahman Ahmed. All rights reserved.
+    </footer>
+
+    <!-- JS File -->
+    <script src="Script.js"></script>
+</body>
+</html>
